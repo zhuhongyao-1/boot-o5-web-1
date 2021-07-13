@@ -46,7 +46,7 @@ public class myConfig /*implements WebMvcConfigurer*/ {
                         if (!StringUtils.isEmpty(s)){
                             Pet pet = new Pet();
                             String[] split = s.split(",");
-                            pet.setName(split[0]);
+                            pet.setName(split[1]);
                             pet.setAge(Integer.valueOf(split[1]));
                             return pet;
                         }
