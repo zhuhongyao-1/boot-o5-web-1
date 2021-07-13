@@ -64,6 +64,9 @@ public class ParameterTest {
     public String Hello(){
         return "heloo";
     }
+    public String Happy(){
+        return null;
+    }
 
 
 }
