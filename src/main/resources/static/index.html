@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<title>Title</title>
+<!--    <link href="favicon.ico" rel="shortcut icon">-->
+</head>
+<body>
+<h3>人的欲望就如高山滚石般，一旦开始就再也停不下来了</h3>
+<form action="user" method="get">
+    <input type="submit" value="GET-获取用户" >
+</form>
+<form action="user" method="post">
+    <input type="hidden" name="_m" value="delete">
+    <input type="submit" value="DELETE-删除用户">
+</form>
+<form action="user" method="post">
+    <input type="hidden" name="_m" value="put">
+    <input type="submit" value="PUT-修改用户">
+</form>
+<form action="user" method="post">
+    <input type="hidden" name="_m" value="post">
+    <input type="submit" value="POST-保存用户">
+</form>
+
+<ul>
+    <a href="car/3/owner/zhangSha?age=18&hobby=basketball">点击请求</a>
+    <li>@PathVariable</li>
+    <li>@RequestHeader</li>
+    <li>@RequestParam</li>
+    <li>@CookValue</li>
+    <li>@RequestBody</li>
+</ul>
+ <form action="save" method="post">
+     账号：<input type="text" name="username">
+     姓名：<input type="text" name="name">
+     <input type="submit" value="提交">
+ </form>
+
+<a href="cars/sell;low=34;brand=byd,audi,yd">@MatrixVariable（矩阵变量）</a>
+<a href="cars/sell;low=34;brand=byd;brand=audi;brand=yd">@MatrixVariable（矩阵变量）</a>
+<a href="boss/1;age=20/2;age=10">@MatrixVariable（矩阵变量）/boss/{bossId}/{empId}</a>
+
+<form action="pet" method="get">
+    宠物：<input type="text" name="pet" value="阿猫,3"/>
+    <input type="submit" value="提交">
+</form>
+
+</body>
+</html>

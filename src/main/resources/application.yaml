@@ -1,0 +1,17 @@
+spring:
+#  mvc:
+    static-path-pattern: res/*
+#  resources:
+#    static-locations: [classpath:/abc/]
+
+#    add-mappings: true
+#    cache:
+#      period: 10000
+    cache:
+      cachecontrol:
+        max-age: 10000
+    mvc:
+      hiddenmethod:
+        filter:
+          enabled: true
+
