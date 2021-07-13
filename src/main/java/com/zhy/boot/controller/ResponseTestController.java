@@ -19,7 +19,7 @@ public class ResponseTestController {
         person.setAge(23);
         person.setBirth(new Date());
         person.setName("李四");
-
+        System.out.println("hello");
         return person;
     }
 }
