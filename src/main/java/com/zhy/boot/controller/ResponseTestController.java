@@ -20,6 +20,7 @@ public class ResponseTestController {
         person.setBirth(new Date());
         person.setName("李四");
         System.out.println("hello");
+        System.out.println("我要成为社会精英");
         return person;
     }
 }
