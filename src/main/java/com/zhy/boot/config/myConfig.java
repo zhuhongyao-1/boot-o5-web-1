@@ -18,6 +18,7 @@ public class myConfig /*implements WebMvcConfigurer*/ {
         OrderedHiddenHttpMethodFilter orderedHiddenHttpMethodFilter = new OrderedHiddenHttpMethodFilter();
         orderedHiddenHttpMethodFilter.setMethodParam("_m");
         return orderedHiddenHttpMethodFilter;
+
     }
 
 

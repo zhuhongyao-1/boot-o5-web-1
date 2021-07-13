@@ -61,6 +61,9 @@ public class ParameterTest {
         map.put("pet",pet);
         return map;
     }
+    public String Hello(){
+        return "heloo";
+    }
 
 
 }
